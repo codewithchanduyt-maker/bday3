@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="hearts">
+    <span>❤️</span>
+    <span>💖</span>
+    <span>💘</span>
+    <span>💕</span>
+    <span>❤️</span>
+    <span>💗</span>
+    <span>💝</span>
+    <span>💕</span>
+  </div>
+
+  <div class="container">
+
+    <div class="card">
+      <h1>Happy Birthday My Favourite 🎂❤️</h1>
+
+      <p>God gives u all the strength and support for your growth in ur life!</p>
+
+      <button onclick="openSurprise()">Tap On Here 🎁</button>
+
+      <p id="surprise" class="hidden">
+        ಹುಟ್ಟುಹಬ್ಬದ ಶುಭಾಶಯಗಳು ಯಜಮಾನ್ರೆ!
+        I love you so much kandha 💝  
+        Forever & always will be there with you!.. 🫶✨
+      </p>
+
+      <audio id="bgMusic" loop>
+        <source src="song.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="gallery-box">
+      <h2>Srinidhi..C💖</h2>
+
+      <div class="gallery">
+        <img src="img11.jpeg" alt="Memory 1">
+         <img src="img16.jpeg" alt="Memory 3">
+        <img src="img9.jpeg" alt="Memory 4">
+        <img src="img18.jpeg" alt="Memory 5">
+        <img src="img7.jpeg" alt="Memory 6">
+      </div>
+    </div>
+
+  </div> 
+
+  <script>
+    function openSurprise() {
+      document.getElementById("surprise").classList.remove("hidden");
+      document.getElementById("bgMusic").play();
+    }
+  </script>
+
+</body>
+</html>
